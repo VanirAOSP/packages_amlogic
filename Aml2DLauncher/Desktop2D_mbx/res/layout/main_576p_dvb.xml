@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    >
+<ImageView  
+    android:id="@+id/ImageViewTV"
+    android:layout_x="36px"
+    android:layout_y="126px"
+    android:layout_width="240px" 
+    android:layout_height="249px"  
+    />
+<ImageView  
+    android:id="@+id/ImageViewTvView"
+    android:layout_x="36px"
+    android:layout_y="126px"
+    android:layout_width="240px" 
+    android:layout_height="249px"  
+    />
+
+<ImageView  
+    android:id="@+id/ImageViewAndroid"
+    android:layout_x="488px"
+    android:layout_y="109px"
+    android:layout_width="115px" 
+    android:layout_height="177px" 
+    android:src="@anim/android"
+    android:clickable="true"
+    android:focusable="true"
+    android:nextFocusLeft="@+id/ImageViewSetting"
+    android:nextFocusRight="@+id/ImageViewPicture"
+    />
+    
+<ImageView  
+    android:id="@+id/ImageViewDVB"
+    android:layout_x="291px"
+    android:layout_y="231px"
+    android:layout_width="85px" 
+    android:layout_height="79px" 
+    android:src="@anim/dvb"
+    android:clickable="true"
+    android:focusable="true"    
+    android:nextFocusLeft="@+id/ImageViewSTB"
+    android:nextFocusRight="@+id/ImageViewNetBrowser"
+    />
+    
+<ImageView  
+    android:id="@+id/ImageViewNetBrowser"
+    android:layout_x="288px"
+    android:layout_y="180px"
+    android:layout_width="95px" 
+    android:layout_height="106px"
+    android:src="@anim/netbrowser"
+    android:clickable="true"
+    android:focusable="true"
+    android:nextFocusLeft="@+id/ImageViewDVB"
+    android:nextFocusRight="@+id/ImageViewSetting"
+    />    
+    
+<ImageView  
+    android:id="@+id/ImageViewSetting"
+    android:layout_x="415px"
+    android:layout_y="120px"
+    android:layout_width="92px" 
+    android:layout_height="147px"  
+    android:src="@anim/setting"
+    android:clickable="true"
+    android:focusable="true"
+    android:nextFocusLeft="@+id/ImageViewNetBrowser"
+    android:nextFocusRight="@+id/ImageViewAndroid"
+    />
+
+<ImageView  
+    android:id="@+id/ImageViewPicture"
+    android:layout_x="580px"
+    android:layout_y="196px"
+    android:layout_width="120px" 
+    android:layout_height="102px" 
+    android:src="@anim/picture"
+    android:clickable="true"
+    android:focusable="true"
+    android:nextFocusLeft="@+id/ImageViewAndroid"
+    android:nextFocusRight="@+id/ImageViewMovie"
+    />
+<ImageView  
+    android:id="@+id/ImageViewSTB"
+    android:layout_x="180px"
+    android:layout_y="319px"
+    android:layout_width="130px" 
+    android:layout_height="105px"     
+    android:src="@anim/stb"
+    android:clickable="true"
+    android:focusable="true"
+    android:nextFocusLeft="@+id/ImageViewMusic"
+    android:nextFocusRight="@+id/ImageViewDVB"
+    />
+<ImageView  
+    android:id="@+id/ImageViewMovie"
+    android:layout_x="453px"
+    android:layout_y="310px"
+    android:layout_width="155px" 
+    android:layout_height="147px" 
+    android:src="@anim/movie"
+    android:clickable="true"
+    android:focusable="true"
+    android:nextFocusLeft="@+id/ImageViewPicture"
+    android:nextFocusRight="@+id/ImageViewMusic"
+    />
+<ImageView  
+    android:id="@+id/ImageViewMusic"
+    android:layout_x="374px"
+    android:layout_y="295px"
+    android:layout_width="110px" 
+    android:layout_height="152px" 
+    android:src="@anim/music"
+    android:clickable="true"
+    android:focusable="true"
+    android:nextFocusLeft="@+id/ImageViewMovie"
+    android:nextFocusRight="@+id/ImageViewSTB"
+    />
+<!--      
+<ImageView  
+    android:id="@+id/ImageNetBrowserString"
+    android:layout_x="567px"
+    android:layout_y="273px"
+    android:layout_width="60px" 
+    android:layout_height="32px" 
+    />
+<ImageView  
+    android:id="@+id/ImageSTBString"
+    android:layout_x="415px"
+    android:layout_y="502px"
+    android:layout_width="102px" 
+    android:layout_height="32px" 
+    />
+<ImageView  
+    android:id="@+id/ImageSettingString"
+    android:layout_x="776px"
+    android:layout_y="212px"
+    android:layout_width="102px" 
+    android:layout_height="32px" 
+    />
+<ImageView  
+    android:id="@+id/ImageAndroidString"
+    android:layout_x="913px"
+    android:layout_y="186px"
+    android:layout_width="102px" 
+    android:layout_height="32px" 
+    />
+<ImageView  
+    android:id="@+id/ImagePictureString"
+    android:layout_x="1084px"
+    android:layout_y="264px"
+    android:layout_width="102px" 
+    android:layout_height="32px" 
+    />
+<ImageView  
+    android:id="@+id/ImageMusicString"
+    android:layout_x="700px"
+    android:layout_y="513px"
+    android:layout_width="60px" 
+    android:layout_height="32px" 
+    />
+<ImageView  
+    android:id="@+id/ImageMovieString"
+    android:layout_x="994px"
+    android:layout_y="482px"
+    android:layout_width="60px" 
+    android:layout_height="32px" 
+    />
+    
+<TextView
+    android:id="@+id/NetBrowserString"
+    android:layout_x="582px"
+    android:layout_y="277px"
+    android:layout_width="60px"
+    android:layout_height="32px"
+    android:text="@string/web"
+/>    
+<TextView
+    android:id="@+id/STBString"
+    android:layout_x="430px"
+    android:layout_y="506px"
+    android:layout_width="102px"
+    android:layout_height="32px"
+    android:text="@string/filebrowser"
+/> 
+<TextView
+    android:id="@+id/SettingString"
+    android:layout_x="800px"
+    android:layout_y="216px"
+    android:layout_width="102px"
+    android:layout_height="32px"
+    android:text="@string/settings"
+/>    
+<TextView
+    android:id="@+id/AndroidString"
+    android:layout_x="928px"
+    android:layout_y="190px"
+    android:layout_width="102px"
+    android:layout_height="32px"
+    android:text="@string/applications"
+/>
+<TextView
+    android:id="@+id/PictureString"
+    android:layout_x="1110px"
+    android:layout_y="268px"
+    android:layout_width="102px"
+    android:layout_height="32px"
+    android:text="@string/picture"
+/>   
+<TextView
+    android:id="@+id/MusicString"
+    android:layout_x="710px"
+    android:layout_y="517px"
+    android:layout_width="60px"
+    android:layout_height="32px"
+    android:text="@string/music"
+/>   
+<TextView
+    android:id="@+id/MovieString"
+    android:layout_x="1004px"
+    android:layout_y="486px"
+    android:layout_width="60px"
+    android:layout_height="32px"
+    android:text="@string/movie"
+/>    
+-->
+</AbsoluteLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">升级</string>
+    <string name="text_top_def">Upgrade Top Info</string>
+    <string name="text_bottom_def">Upgrade Bottom Info</string>
+    <string name="upgrade_local">本地升级</string>
+    <string name="upgrade_net">网络升级</string>
+    <string name="back_no_package">没有发现升级包!</string>
+    <string name="back_back">返回</string>
+    <string name="next_install_package">重启并安装升级包</string>
+    <string name="info_page_main">选择升级方式</string>
+    <string name="info_page_local">选择升级包</string>
+    <string name="info_page_local_null">没有发现升级包!</string>
+    <string name="info_page_net">选择升级包</string>
+    <string name="info_page_confirm">升级需要重新启动</string>
+    <string name="str_dialog_title">请稍等...</string>
+    <string name="str_dialog_body">正在连接服务器...</string>
+    <string name="str_dialog_fail">连接服务器失败.</string>
+    <string name="str_no_freesize">没有剩余空间下载文件.</string>
+    <string name="downloading_text1">源文件路径:</string>
+    <string name="downloading_text2">目标路径:</string>
+    <string name="downloading_text3">升级进度:</string>
+    <string name="download_fail_note">下载失败</string>
+    <string name="downloading_note">下载升级包</string>
+    <string name="exit">退出</string>
+    
+</resources>

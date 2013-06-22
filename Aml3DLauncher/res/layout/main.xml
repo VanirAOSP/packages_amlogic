@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1920px"
+    android:layout_height="1080px"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    >
+	<FrameLayout android:id="@+id/FrameInfo" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">	
+		<TextView  
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/fps"/>
+    </FrameLayout>
+
+	<FrameLayout android:id="@+id/FrameGL" 
+	android:layout_width="wrap_content" 
+	android:layout_height="fill_parent">	
+	    <com.amlogic.AML3Dlauncher.AmlGLSurfaceView android:id="@+id/glsurfaceview"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent" />
+    </FrameLayout>
+</AbsoluteLayout>

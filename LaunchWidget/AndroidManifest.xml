@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- Declare the contents of this Android application.  The namespace
+     attribute brings in the Android platform namespace, and the package
+     supplies a unique name for the application.  When writing your
+     own application, the package name must be changed from "com.example.*"
+     to come from a domain that you own or have control over. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amlogic.launchwidget" >
+
+    <uses-sdk android:minSdkVersion="11" />
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.READ_FRAME_BUFFER"/>
+    <application android:icon="@drawable/ic_launcher"
+        	android:label="@string/live_folder_name" 
+        >   
+        <provider android:name="com.amlogic.launchwidget.WidgetContentProvider"
+            android:authorities="com.google.provider.LaunchWidget">
+            <grant-uri-permission android:pathPattern=".*" />
+        </provider>
+        <activity android:name="com.amlogic.launchwidget.WidgetListActivity"  
+            android:theme="@android:style/Theme.Dialog"
+            >
+    
+        </activity> 
+        <receiver android:name="com.amlogic.launchwidget.WidgetProvider">
+            <intent-filter>
+               <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+               <action android:name="com.amlogic.widget.add" />
+    			<action android:name="com.amlogic.widget.delete" />
+    			<action android:name="com.amlogic.widget.open" />
+    			<action android:name="com.amlogic.widget.addapp"/>
+			<action android:name="com.amlogic.widget.finishactivity"/>
+            </intent-filter>
+            <!-- This specifies the widget provider info -->
+            <meta-data android:name="android.appwidget.provider"
+                    android:resource="@xml/widgetinfo" />
+        </receiver>
+        <receiver android:name="com.amlogic.launchwidget.PacakageStateProvider">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <action android:name="android.intent.action.PACKAGE_FULLY_REMOVED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+    			 <data android:scheme="package" />
+            </intent-filter>    
+        </receiver>
+        <!-- The service serving the RemoteViews to the collection widget -->
+        <service android:name="com.amlogic.launchwidget.WidgetRemoteViews"
+            android:permission="android.permission.BIND_REMOTEVIEWS"
+            android:exported="false" />
+    </application>
+
+</manifest>

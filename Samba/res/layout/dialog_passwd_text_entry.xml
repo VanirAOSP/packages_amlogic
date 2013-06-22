@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<TextView android:id="@+id/username_view"
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:layout_marginLeft="20dip"
+		android:layout_marginRight="20dip"
+		android:text="@string/user_name" 
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<EditText 
+	    android:id="@+id/user_id"
+	    android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_marginLeft="20dip"
+		android:layout_marginRight="20dip"
+		android:capitalize="none"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:singleLine="true"
+		android:nextFocusDown="@+id/password_id"/>
+
+	<TextView
+	    android:id="@+id/password_view"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_marginLeft="20dip"
+		android:layout_marginRight="20dip"
+		android:text="@string/password"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<EditText
+	    android:id="@+id/password_id"
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:layout_marginLeft="20dip" 
+		android:layout_marginRight="20dip"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:singleLine="true" 
+		android:password="true" />
+	<CheckBox
+	    android:id="@+id/check_save"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="@string/check_save_info"/>
+</LinearLayout>

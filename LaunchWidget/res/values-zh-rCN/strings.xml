@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    
+    <string name="empty_view_text">No  found...</string>
+    <string name="live_folder_name">TV Widget</string>
+
+    <string name="button1">open</string>
+    <string name="button2">insert </string>
+    <string name="button3">delete</string>
+    <string name="button4">actionOpen</string>
+    <string name="button5">actionInsert</string>
+    <string name="button6">actionDelete</string>
+	
+    <string name="error_title">Error</string>
+   
+    <string name="menu_widget_add">添加到 widget </string>
+    <string name="menu_add_favorite">设置为常用 </string>
+    <string name="menu_mv_up">向上移动</string>
+    <string name="menu_mv_down">向下移动 </string>
+    <string name="menu_widget_delete">从widget中移除</string>
+    <string name="menu_exit">退出</string>
+    
+</resources>

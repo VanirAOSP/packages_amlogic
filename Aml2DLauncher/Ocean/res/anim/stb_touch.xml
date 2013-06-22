@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="false">
+<item android:drawable="@drawable/stb_touch01" android:duration="150" />
+<item android:drawable="@drawable/stb_touch02" android:duration="150" />
+<item android:drawable="@drawable/stb_touch03" android:duration="150" />
+<item android:drawable="@drawable/stb_touch04" android:duration="150" />
+<item android:drawable="@drawable/stb_touch05" android:duration="150" />
+<item android:drawable="@drawable/stb_touch06" android:duration="150" />
+<item android:drawable="@drawable/stb_touch07" android:duration="150" />
+<item android:drawable="@drawable/stb_touch08" android:duration="150" />
+<item android:drawable="@drawable/stb_touch09" android:duration="150" />
+<item android:drawable="@drawable/stb_touch10" android:duration="150" />
+<item android:drawable="@drawable/stb_touch11" android:duration="150" />
+<item android:drawable="@drawable/stb_touch12" android:duration="150" />
+<item android:drawable="@drawable/stb_touch13" android:duration="150" />
+<item android:drawable="@drawable/stb_touch14" android:duration="150" />
+<item android:drawable="@drawable/stb_touch15" android:duration="150" />
+<item android:drawable="@drawable/stb_touch16" android:duration="150" />
+<item android:drawable="@drawable/stb_touch17" android:duration="150" />
+
+</animation-list>

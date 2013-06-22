@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<bool name="config_local_upgrade">true</bool>
+	<bool name="config_net_upgrade">true</bool>
+	
+	<bool name="config_local_check_sdcard">true</bool>
+	<bool name="config_local_check_flash">true</bool>	
+	<bool name="config_local_check_usb">true</bool>	
+	<bool name="config_local_check_sata">false</bool>	
+	
+	<!-- from recovery.fstab -->
+	<string name="config_recovery_sdcard_path">/sdcard</string>
+	<string name="config_recovery_sdcard_external">/sdcard/external_sdcard</string>
+	<string name="config_recovery_flash_path">/media</string>
+	<string name="config_recovery_usb_path">/udisk</string>
+	<string name="config_recovery_sata_path">/sata</string>
+	
+	<string name="config_net_server_url">http://10.28.8.140:8080/PanHub.RDS.Lib.svc/</string>		
+</resources>

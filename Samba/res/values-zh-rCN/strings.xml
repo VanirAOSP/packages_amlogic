@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Network_Neighborhood!</string>
+    <string name="app_name">网上邻居</string>
+    <string name="visit_path">访问路径</string>
+    <string name="user_info">请输入用户名和密码</string>
+    <string name="user_name">用户名：</string>
+    <string name="password">密码：</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="sort_dialog_title_str">文件排序</string>
+    <string name="sort_dialog_name_str">按文件名排序</string>
+    <string name="dialog_close_str">取消</string>
+    <string name="check_save_info">保存用户名和密码</string>
+    <string name="parentdirectory">返回上级目录</string>
+    <string name="searching">正在搜索共享目录</string>
+    <string name="pleasewait">请稍等......</string>
+    <string name="notice">温馨提示</string>
+    <string name="nofiles">没有你想要的文件！</string>
+    <string name="backkey">返回键返回</string>
+    <string name="neterror">访问网络资源失败！</string>
+    <string name="nocomputer">没有搜索到可用的共享目录！</string>
+    <string name="computerip">目标地址：(192.168.0.1)</string>
+    <string name="computerdir">目标目录：(media/disk/dir)</string>
+    <string name="inputbyhand">请输入目标机地址及目录</string>
+    <string name="network_not_ready">网络连接已经断开，请检查</string>
+    <string name="error_ip">目标IP地址不合法</string>
+    <string name="error_msg1">目标IP地址无法访问</string>
+    <string name="error_msg2">目标IP地址暂时无法连接，请稍后再试</string>
+    
+    
+<string name="dialog_help_str_home">主页</string>
+<string name="dialog_help_str_list">列表视图</string>
+<string name="dialog_help_str_sort">排序</string>
+<string name="dialog_help_str_parent">上一级</string>
+<string name="dialog_help_str_thumb">预览视图</string>
+<string name="dialog_help_str_help">帮助</string>
+<string name="dialog_help_str_close">关闭</string>
+<string name="device_list">设备列表</string>
+</resources>

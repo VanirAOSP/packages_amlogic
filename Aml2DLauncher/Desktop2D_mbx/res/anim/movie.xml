@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="false">
+<item android:drawable="@drawable/movie01" android:duration="150" />
+<item android:drawable="@drawable/movie02" android:duration="150" />
+<item android:drawable="@drawable/movie03" android:duration="150" />
+<item android:drawable="@drawable/movie04" android:duration="150" />
+<item android:drawable="@drawable/movie05" android:duration="150" />
+<item android:drawable="@drawable/movie06" android:duration="150" />
+<item android:drawable="@drawable/movie07" android:duration="150" />
+</animation-list>

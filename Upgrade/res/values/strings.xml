@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">Upgrade</string>
+    <string name="text_top_def">Upgrade Top Info</string>
+    <string name="text_bottom_def">Upgrade Bottom Info</string>
+    <string name="upgrade_local">Local Upgrade</string>
+    <string name="upgrade_net">Network Upgrade</string>
+    <string name="back_no_package">No Upgrade Package Found!</string>
+    <string name="back_back">Back</string>
+    <string name="next_install_package">Reboot And Install Package</string>
+    <string name="info_page_main">Choose Upgrade Method</string>
+    <string name="info_page_local">Select Upgrade Package</string>
+    <string name="info_page_local_null">No Upgrade Package Found!</string>
+    <string name="info_page_net">Select Upgrade Package</string>
+    <string name="info_page_confirm">Upgrade Need Reboot</string>
+    <string name="str_dialog_title">Please wait a moment...</string>
+    <string name="str_dialog_body">Connecting to server...</string>
+    <string name="str_dialog_fail">Connect to server fail.</string>
+    <string name="str_no_freesize">No freesize for download file.</string>
+    <string name="downloading_text1">Source Path:</string>
+    <string name="downloading_text2">Target Path:</string>
+    <string name="downloading_text3">Upgrade Progress:</string>
+    <string name="download_fail_note">Downloading fail</string>
+    <string name="downloading_note">Download Update</string>
+    <string name="exit">Exit</string>
+    
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="false">
+<item android:drawable="@drawable/tv_touch01" android:duration="150" />
+<item android:drawable="@drawable/tv_touch02" android:duration="150" />
+<item android:drawable="@drawable/tv_touch03" android:duration="150" />
+<item android:drawable="@drawable/tv_touch04" android:duration="150" />
+<item android:drawable="@drawable/tv_touch05" android:duration="150" />
+<item android:drawable="@drawable/tv_touch06" android:duration="150" />
+<item android:drawable="@drawable/tv_touch07" android:duration="150" />
+<item android:drawable="@drawable/tv_touch08" android:duration="150" />
+<item android:drawable="@drawable/tv_touch09" android:duration="150" />
+<item android:drawable="@drawable/tv_touch10" android:duration="150" />
+<item android:drawable="@drawable/tv_touch11" android:duration="150" />
+<item android:drawable="@drawable/tv_touch12" android:duration="150" />
+<item android:drawable="@drawable/tv_touch13" android:duration="150" />
+<item android:drawable="@drawable/tv_touch14" android:duration="150" />
+<item android:drawable="@drawable/tv_touch15" android:duration="150" />
+<item android:drawable="@drawable/tv_touch16" android:duration="150" />
+<item android:drawable="@drawable/tv_touch17" android:duration="150" />
+<item android:drawable="@drawable/tv_touch18" android:duration="150" />
+<item android:drawable="@drawable/tv_touch19" android:duration="150" />
+<item android:drawable="@drawable/tv_touch20" android:duration="150" />
+<item android:drawable="@drawable/tv_touch21" android:duration="150" />
+<item android:drawable="@drawable/tv_touch22" android:duration="150" />
+<item android:drawable="@drawable/tv_touch23" android:duration="150" />
+<item android:drawable="@drawable/tv_touch24" android:duration="150" />
+<item android:drawable="@drawable/tv_touch25" android:duration="150" />
+
+
+</animation-list>

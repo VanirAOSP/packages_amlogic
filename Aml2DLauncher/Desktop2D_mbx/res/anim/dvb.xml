@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="false">
+<item android:drawable="@drawable/dvb01" android:duration="150" />
+<item android:drawable="@drawable/dvb02" android:duration="150" />
+<item android:drawable="@drawable/dvb03" android:duration="150" />
+<item android:drawable="@drawable/dvb04" android:duration="150" />
+<item android:drawable="@drawable/dvb05" android:duration="150" />
+<item android:drawable="@drawable/dvb06" android:duration="150" />
+<item android:drawable="@drawable/dvb07" android:duration="150" />
+<item android:drawable="@drawable/dvb08" android:duration="150" />
+<item android:drawable="@drawable/dvb09" android:duration="150" />
+<item android:drawable="@drawable/dvb10" android:duration="150" />
+<item android:drawable="@drawable/dvb11" android:duration="150" />
+<item android:drawable="@drawable/dvb12" android:duration="150" />
+<item android:drawable="@drawable/dvb13" android:duration="150" />
+<item android:drawable="@drawable/dvb14" android:duration="150" />
+<item android:drawable="@drawable/dvb15" android:duration="150" />
+</animation-list>

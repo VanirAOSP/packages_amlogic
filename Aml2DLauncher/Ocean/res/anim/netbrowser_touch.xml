@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="false">
+<item android:drawable="@drawable/netbrowser_touch01" android:duration="150" />
+<item android:drawable="@drawable/netbrowser_touch02" android:duration="150" />
+<item android:drawable="@drawable/netbrowser_touch03" android:duration="150" />
+<item android:drawable="@drawable/netbrowser_touch04" android:duration="150" />
+<item android:drawable="@drawable/netbrowser_touch05" android:duration="150" />
+<item android:drawable="@drawable/netbrowser_touch06" android:duration="150" />
+<item android:drawable="@drawable/netbrowser_touch07" android:duration="150" />
+<item android:drawable="@drawable/netbrowser_touch08" android:duration="150" />
+<item android:drawable="@drawable/netbrowser_touch09" android:duration="150" />
+<item android:drawable="@drawable/netbrowser_touch10" android:duration="150" />
+<item android:drawable="@drawable/netbrowser_touch11" android:duration="150" />
+<item android:drawable="@drawable/netbrowser_touch12" android:duration="150" />
+<item android:drawable="@drawable/netbrowser_touch13" android:duration="150" />
+<item android:drawable="@drawable/netbrowser_touch14" android:duration="150" />
+<item android:drawable="@drawable/netbrowser_touch15" android:duration="150" />
+<item android:drawable="@drawable/netbrowser_touch16" android:duration="150" />
+<item android:drawable="@drawable/netbrowser_touch17" android:duration="150" />
+<item android:drawable="@drawable/netbrowser_touch18" android:duration="150" />
+<item android:drawable="@drawable/netbrowser_touch19" android:duration="150" />
+<item android:drawable="@drawable/netbrowser_touch20" android:duration="150" />
+
+</animation-list>

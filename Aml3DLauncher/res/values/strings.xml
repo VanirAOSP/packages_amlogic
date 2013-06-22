@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">3D Launcher</string>
+    <string name="app_title">"                          APPs"</string>
+	<string name="title0">Setting</string>
+	<string name="title1">Video Player</string>
+	<string name="title2">Music Player</string>
+	<string name="title3">APPs</string>
+	<string name="title4">Browser</string>
+	<string name="title5">Pictures Player</string>
+	<string name="title6">File Browser</string>
+	<string name="title7">Music&amp;Photo</string>
+	<string name="title8">Games</string>
+	<string name="menu0_0"></string><string name="menu0_1"></string><string name="menu0_2"></string>
+	<string name="menu0_3"></string><string name="menu0_4"></string><string name="menu1_0"></string>
+	<string name="menu1_1"></string><string name="menu1_2"></string><string name="menu1_3"></string><string name="menu1_4"></string><string name="menu2_0">Favourite Apps</string>
+	<string name="menu2_1">Installed Apps</string>
+	<string name="menu2_2">Downloaded Apps</string><string name="menu2_3"></string><string name="menu2_4"></string>
+	<string name="menu3_0"></string>
+	<string name="menu3_1"></string><string name="menu3_2"></string><string name="menu3_3"></string><string name="menu3_4"></string><string name="menu4_0">TV Apps</string>
+	<string name="menu4_1">CNN</string>
+	<string name="menu4_2"></string><string name="menu4_3"></string><string name="menu4_4"></string><string name="menu5_0"></string>
+	<string name="menu5_1"></string><string name="menu5_2"></string><string name="menu5_3"></string><string name="menu5_4"></string><string name="menu6_0">Movies Box</string>
+	<string name="menu6_1">Youtube</string>
+	<string name="menu6_2">Netflix/Hulu?Vudu ...</string>
+	<string name="menu6_3">HBO/BBC</string>
+	<string name="menu6_4"></string><string name="menu7_0">Musix Box</string>
+	<string name="menu7_1">Pandora</string>
+	<string name="menu7_2">Photo Album</string>
+	<string name="menu7_3">Picasa</string>
+	<string name="menu7_4">Flickr</string>
+	<string name="menu8_0">Angry Birds</string>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<string name="menu8_1"></string>
+	<string name="menu8_2"></string>
+	<string name="menu8_3"></string>
+	<string name="menu8_4"></string>
+</resources>

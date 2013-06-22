@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="false">
+<item android:drawable="@drawable/bubble01" android:duration="150" />
+<item android:drawable="@drawable/bubble02" android:duration="150" />
+<item android:drawable="@drawable/bubble03" android:duration="150" />
+<item android:drawable="@drawable/bubble04" android:duration="150" />
+<item android:drawable="@drawable/bubble05" android:duration="150" />
+<item android:drawable="@drawable/bubble06" android:duration="150" />
+<item android:drawable="@drawable/bubble07" android:duration="150" />
+<item android:drawable="@drawable/bubble08" android:duration="150" />
+<item android:drawable="@drawable/bubble09" android:duration="150" />
+<item android:drawable="@drawable/bubble10" android:duration="150" />
+<item android:drawable="@drawable/bubble11" android:duration="150" />
+<item android:drawable="@drawable/bubble12" android:duration="150" />
+<item android:drawable="@drawable/bubble13" android:duration="150" />
+<item android:drawable="@drawable/bubble14" android:duration="150" />
+<item android:drawable="@drawable/bubble15" android:duration="150" />
+<item android:drawable="@drawable/bubble16" android:duration="150" />
+<item android:drawable="@drawable/bubble17" android:duration="150" />
+<item android:drawable="@drawable/bubble18" android:duration="150" />
+<item android:drawable="@drawable/bubble19" android:duration="150" />
+<item android:drawable="@drawable/bubble20" android:duration="150" />
+<item android:drawable="@drawable/bubble21" android:duration="150" />
+<item android:drawable="@drawable/bubble22" android:duration="150" />
+<item android:drawable="@drawable/bubble23" android:duration="150" />
+<item android:drawable="@drawable/bubble24" android:duration="150" />
+<item android:drawable="@drawable/bubble25" android:duration="150" />
+<item android:drawable="@drawable/bubble26" android:duration="150" />
+<item android:drawable="@drawable/bubble27" android:duration="150" />
+<item android:drawable="@drawable/bubble28" android:duration="150" />
+<item android:drawable="@drawable/bubble29" android:duration="150" />
+<item android:drawable="@drawable/bubble30" android:duration="150" />
+<item android:drawable="@drawable/bubble31" android:duration="150" />
+<item android:drawable="@drawable/bubble32" android:duration="150" />
+</animation-list>

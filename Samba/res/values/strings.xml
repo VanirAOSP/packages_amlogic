@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Network_Neighborhood!</string>
+    <string name="app_name">Network</string>
+    <string name="visit_path">PATH</string>
+    <string name="user_info">Please enter your username and password</string>
+    <string name="user_name">Username：</string>
+    <string name="password">Password：</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="sort_dialog_title_str">Filesort</string>
+    <string name="sort_dialog_name_str">Sort by file name</string>
+    <string name="dialog_close_str">Cancel</string>
+    <string name="check_save_info">Save user name and password</string>
+    <string name="parentdirectory">Back to parent directory</string>
+    <string name="searching">Searching...</string>
+    <string name="pleasewait">Waiting...</string>
+    <string name="notice">Tips</string>
+    <string name="nofiles">No files.</string>
+    <string name="backkey">Return </string>
+    <string name="neterror">Failed to access network resources.</string>
+    <string name="nocomputer">No computer！</string>
+    <string name="computerip">Computer IP：(192.168.0.1)</string>
+    <string name="computerdir">Computer Dir：(media/disk/dir)</string>
+    <string name="inputbyhand">Please input Computer IP and Dir</string>
+    <string name="network_not_ready">Network disconnect </string>
+    <string name="error_ip">Error IP </string>
+    <string name="error_msg1">IP adress can not access </string>
+    <string name="error_msg2">Unable to connect IP address ,pls try it again</string>
+    
+    
+<string name="dialog_help_str_home">home</string>
+<string name="dialog_help_str_list">list</string>
+<string name="dialog_help_str_sort">sort</string>
+<string name="dialog_help_str_parent">parent</string>
+<string name="dialog_help_str_thumb">thumb</string>
+<string name="dialog_help_str_help">help</string>
+<string name="dialog_help_str_close">close</string>
+<string name="device_list">Device List</string>
+</resources>

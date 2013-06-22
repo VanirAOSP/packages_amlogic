@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LaunchWidget>
+	
+	<package_config>
+                com.android.deskclock,
+                com.gsoft.appinstall,
+                com.android.settings,
+                com.android.music,
+                com.android.gallery3d,
+                com.android.browser,
+                com.farcore.videoplayer,
+                com.fb.FileBrower
+	</package_config>	
+	
+	<class_config>
+                com.android.deskclock.DeskClock,
+                com.gsoft.appinstall.main,
+                com.android.settings.Settings,
+                com.android.music.MusicBrowserActivity,
+                com.android.gallery3d.app.Gallery,
+                com.android.browser.BrowserActivity,
+                com.farcore.videoplayer.FileList,
+                com.fb.FileBrower.FileBrower
+	</class_config>	
+	
+</LaunchWidget>
+
+

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    >
+<ImageView
+    android:id="@+id/myImageViewFish1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="700px"
+    android:layout_y="450px"
+    />
+<ImageView
+    android:id="@+id/myImageViewFish2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="250px"
+    android:layout_y="250px"
+    />
+<ImageView
+    android:id="@+id/myImageViewFish3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="0px"
+    android:layout_y="350px"
+    />
+<ImageView
+    android:id="@+id/myImageViewFish4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="100px"
+    android:layout_y="70px"
+    />
+<ImageView
+    android:id="@+id/myImageViewFish5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="700px"
+    android:layout_y="150px"
+    />
+    
+<ImageView
+    android:id="@+id/myImageViewBubble"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+/>
+    
+<ImageView
+    android:id="@+id/myImageViewAndroid"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+<ImageView
+    android:id="@+id/myImageViewStb"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+<ImageView
+    android:id="@+id/myImageViewTv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+<ImageView
+    android:id="@+id/myImageViewMovie"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+<ImageView
+    android:id="@+id/myImageViewPicture"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+<ImageView
+    android:id="@+id/myImageViewNetbrowser"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+<ImageView
+    android:id="@+id/myImageViewSetting"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+<ImageView
+    android:id="@+id/myImageViewMusic"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+</AbsoluteLayout>

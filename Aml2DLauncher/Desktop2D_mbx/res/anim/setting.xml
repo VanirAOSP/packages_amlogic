@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="false">
+<item android:drawable="@drawable/setting01" android:duration="150" />
+<item android:drawable="@drawable/setting02" android:duration="150" />
+<item android:drawable="@drawable/setting03" android:duration="150" />
+<item android:drawable="@drawable/setting04" android:duration="150" />
+<item android:drawable="@drawable/setting05" android:duration="150" />
+<item android:drawable="@drawable/setting06" android:duration="150" />
+<item android:drawable="@drawable/setting07" android:duration="150" />
+<item android:drawable="@drawable/setting08" android:duration="150" />
+<item android:drawable="@drawable/setting09" android:duration="150" />
+<item android:drawable="@drawable/setting10" android:duration="150" />
+<item android:drawable="@drawable/setting11" android:duration="150" />
+<item android:drawable="@drawable/setting12" android:duration="150" />
+<item android:drawable="@drawable/setting13" android:duration="150" />
+<item android:drawable="@drawable/setting14" android:duration="150" />
+<item android:drawable="@drawable/setting15" android:duration="150" />
+<item android:drawable="@drawable/setting16" android:duration="150" />
+<item android:drawable="@drawable/setting17" android:duration="150" />
+<item android:drawable="@drawable/setting18" android:duration="150" />
+<item android:drawable="@drawable/setting19" android:duration="150" />
+</animation-list>

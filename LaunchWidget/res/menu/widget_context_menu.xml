@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <item android:id="@+id/context_widget_add"
+       	android:title="@string/menu_widget_add"
+          />
+     <item android:id="@+id/context_widget_delete"
+        	android:title="@string/menu_widget_delete"
+          />
+
+
+     <item android:id="@+id/context_exit"
+       	android:title="@string/menu_exit"
+          />
+</menu>
+
+   <!-- 
+         <item android:id="@+id/context_favorite"
+       	android:title="@string/menu_add_favorite"
+          />
+    <item android:id="@+id/context_mv_up"
+        	android:title="@string/menu_mv_up"
+          />
+    <item android:id="@+id/context_mv_down"
+        	android:title="@string/menu_mv_down"
+          />
+      -->

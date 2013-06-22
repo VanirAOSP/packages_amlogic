@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hello">Hello World, MainScreenTheme!</string>
+    <string name="process" translate="false"><xliff:g id="x"></xliff:g></string>
+    <string name="app_name">2D启动器</string>
+    
+    <string name="web">web</string>
+    <string name="filebrowser">filebrowser</string>
+    <string name="stb">set top box</string>
+    <string name="settings">settings</string>
+    <string name="applications">applications</string>
+    <string name="picture">picture</string>
+    <string name="music">music</string>
+    <string name="movie">movie</string>
+    
+</resources>
