@@ -1,6 +1,10 @@
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
+common_flags := -Wno-error -fno-strict-aliasing
+common_flags += -Wno-error -Wno-strict-aliasing
+common_flags += -Wno-attributes
+
 LOCAL_SRC_FILES := \
 	codec/codec_ctrl.c \
 	codec/codec_h_ctrl.c \

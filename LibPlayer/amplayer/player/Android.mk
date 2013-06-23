@@ -3,6 +3,10 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
+common_flags := -Wno-error -fno-strict-aliasing
+common_flags += -Wno-error -Wno-strict-aliasing
+common_flags += -Wno-attributes
+
 ifneq ($(BOARD_VOUT_USES_FREESCALE),false)
 LOCAL_CFLAGS += -DENABLE_FREE_SCALE
 endif
@@ -17,8 +21,6 @@ LIBPLAYER_GIT_UNCOMMIT_FILE_NUM=$(shell cd $(LOCAL_PATH);git diff | grep +++ -c)
 LIBPLAYER_LAST_CHANGED="$(shell cd $(LOCAL_PATH);git log | grep Date -m 1)"
 LIBPLAYER_BUILD_TIME=" $(shell date)"
 LIBPLAYER_BUILD_NAME=" $(shell echo ${LOGNAME})"
-
-common_flags += -Wno-attributes
 
 LOCAL_CFLAGS+=-DHAVE_VERSION_INFO
 LOCAL_CFLAGS+=-DLIBPLAYER_GIT_VERSION=\"${LIBPLAYER_GIT_VERSION}${LIBPLAYER_GIT_DIRTY}\"
@@ -41,6 +43,11 @@ LOCAL_ARM_MODE := arm
 include $(BUILD_STATIC_LIBRARY)
 
 include $(CLEAR_VARS)
+
+
+common_flags := -Wno-error -fno-strict-aliasing
+common_flags += -Wno-error -Wno-strict-aliasing
+common_flags += -Wno-attributes
 
 ifneq ($(BOARD_VOUT_USES_FREESCALE),false)
 LOCAL_CFLAGS += -DENABLE_FREE_SCALE
