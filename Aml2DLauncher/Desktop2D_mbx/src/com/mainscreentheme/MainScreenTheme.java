@@ -36,8 +36,6 @@ import java.io.InputStreamReader;
 public class MainScreenTheme extends Activity implements OnFocusChangeListener,
 		OnTouchListener ,OnClickListener{
 
-
-
 	private static final String TAG = "MainScreenTheme";
 
 	private static boolean has_stb = false;
@@ -176,7 +174,7 @@ public class MainScreenTheme extends Activity implements OnFocusChangeListener,
 		mImageSTB = (ImageView) findViewById(R.id.ImageViewSTB);
 		mImageMusic = (ImageView) findViewById(R.id.ImageViewMusic);
 		mImageMovie = (ImageView) findViewById(R.id.ImageViewMovie);
-		
+
 		//mNetBrowserString = (ImageView) findViewById(R.id.ImageNetBrowserString);
 		//mSTBString = (ImageView) findViewById(R.id.ImageSTBString);
 		//mSettingString = (ImageView) findViewById(R.id.ImageSettingString);
@@ -184,7 +182,7 @@ public class MainScreenTheme extends Activity implements OnFocusChangeListener,
 		//mPictureString = (ImageView) findViewById(R.id.ImagePictureString);
 		//mMusicString = (ImageView) findViewById(R.id.ImageMusicString);
 		//mMovieString = (ImageView) findViewById(R.id.ImageMovieString);
-		
+
 		//mTextWeb = (TextView)findViewById(R.id.NetBrowserString);
 		//mTextFilebrowser = (TextView)findViewById(R.id.STBString);
 
@@ -197,7 +195,7 @@ public class MainScreenTheme extends Activity implements OnFocusChangeListener,
 		//mTextPicture = (TextView)findViewById(R.id.PictureString);
 		//mTextMusic = (TextView)findViewById(R.id.MusicString);
 		//mTextMovie = (TextView)findViewById(R.id.MovieString);
-		
+
 		mAnimSTB = (AnimationDrawable) mImageSTB.getDrawable();
 		mAnimNetBrowser = (AnimationDrawable) mImageNetBrowser.getDrawable();
 		mAnimDVB = (AnimationDrawable) mImageDVB.getDrawable();
@@ -224,7 +222,7 @@ public class MainScreenTheme extends Activity implements OnFocusChangeListener,
 		mImagePicture.setOnTouchListener(this);
 		mImageMusic.setOnTouchListener(this);
 		mImageMovie.setOnTouchListener(this);
-	
+
 		mImageDVB.setOnClickListener(this);
 		mImageSTB.setOnClickListener(this);
 		mImageAndroid.setOnClickListener(this);
@@ -233,7 +231,7 @@ public class MainScreenTheme extends Activity implements OnFocusChangeListener,
 		mImageNetBrowser.setOnClickListener(this);
 		mImagePicture.setOnClickListener(this);
 		mImageSetting.setOnClickListener(this);
-		
+
 		mImageTV.setImageResource(R.drawable.tv00);
 		mImageNetBrowser.setImageResource(R.drawable.netbrowser00);
 		mImageSTB.setImageResource(R.drawable.stb00);
@@ -251,7 +249,7 @@ public class MainScreenTheme extends Activity implements OnFocusChangeListener,
 		//mPictureString.setImageResource(R.drawable.blank_large);
 		//mMusicString.setImageResource(R.drawable.blank_short);
 		//mMovieString.setImageResource(R.drawable.blank_short);
-		
+
         	boolean mVfdDisplay = SystemProperties.getBoolean("hw.vfd", false); 
         	if(mVfdDisplay ){
         		String[] cmdtest ={ "/system/bin/sh", "-c", "echo"+" "+"0:00:00"+" "+"> /sys/devices/platform/m1-vfd.0/led" };
@@ -259,13 +257,13 @@ public class MainScreenTheme extends Activity implements OnFocusChangeListener,
         	}
 	}
 	int keyCodeResend;
-	
+
 	public boolean onKeyUp(int keyCode, KeyEvent event)
     {
     	Log.i(TAG, String.format("keyCode of onKeyUp is %d", keyCode));
 		if((keyCode== KeyEvent.KEYCODE_DPAD_UP) ||(keyCode== KeyEvent.KEYCODE_DPAD_DOWN)){
 			keyCodeResend = keyCode;
-			
+
 			new Thread(new Runnable() {
 	               public void run() {
 				    	IWindowManager wm = IWindowManager.Stub.asInterface(ServiceManager.getService("window"));
@@ -295,14 +293,13 @@ public class MainScreenTheme extends Activity implements OnFocusChangeListener,
 						        Log.i(TAG, String.format("keyCode of onKeyUp_Thread is %d", keyCodeResend));
 								try {
 									Log.i(TAG, "down = new KeyEvent(now, now, KeyEvent.ACTION_DOWN, keycode, 0);");
-						            wm.injectKeyEvent(down, false);
+										wm.injectKeyEvent(down, false);
 								}catch (RemoteException e) {
 						            Log.i(TAG, "DeadOjbectException");
 						        }
-						        
 								try {
 									Log.i(TAG, "up = new KeyEvent(now, now, KeyEvent.ACTION_UP, keycode, 0);");
-						            wm.injectKeyEvent(up, false);
+										wm.injectKeyEvent(up, false);
 								}catch (RemoteException e) {
 						            Log.i(TAG, "DeadOjbectException");
 						        }
@@ -318,7 +315,6 @@ public class MainScreenTheme extends Activity implements OnFocusChangeListener,
 		}
 		return super.onKeyUp(keyCode, event);
     };
-	
 
 	public boolean onKeyDown(int keyCode, KeyEvent event)
     {
@@ -331,7 +327,7 @@ public class MainScreenTheme extends Activity implements OnFocusChangeListener,
 		}
 		return super.onKeyDown(keyCode, event);
     };
-	
+
 	protected void onPause() {
 		// TODO Auto-generated method stub
 		super.onPause();
@@ -357,7 +353,6 @@ public class MainScreenTheme extends Activity implements OnFocusChangeListener,
 			
 			if(mTvAlpha<=255)
 				mHandler.postDelayed(TvRun, 50);
-			
 		}
 	};
 	
@@ -940,5 +935,4 @@ public class MainScreenTheme extends Activity implements OnFocusChangeListener,
     	intent.putExtra("command", "stop");
     	this.sendBroadcast(intent);
     }
-
 }
