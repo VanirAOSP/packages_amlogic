@@ -6,7 +6,7 @@ LOCAL_SRC_FILES := $(notdir $(wildcard $(LOCAL_PATH)/*.c))
 LOCAL_ARM_MODE := arm
 LOCAL_C_INCLUDES := $(LOCAL_PATH) \
 	  $(LOCAL_PATH)/codebook    
-LOCAL_CFLAGs += -Werror -Wno-attributes -fno-strict-aliasing 
+LOCAL_CFLAGs += -Werror -fno-strict-aliasing 
 
 include $(BUILD_STATIC_LIBRARY)
 
@@ -21,5 +21,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := $(LOCAL_PATH) \
 	 $(LOCAL_PATH)/codebook   
 LOCAL_PRELINK_MODULE := false 
+LOCAL_CFLAGs += -Werror -fno-strict-aliasing 
 
 include $(BUILD_SHARED_LIBRARY)
