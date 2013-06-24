@@ -2,10 +2,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 include $(LOCAL_PATH)/../common.mk
 
-
-common_flags := -Wno-error -fno-strict-aliasing
-common_flags += -Wno-error -Wno-strict-aliasing
-common_flags += -Wno-attributes
+common_flags += -Wno-error=strict-aliasing -fno-strict-aliasing
 
 LOCAL_SRC_FILES := $(FFFILES)
 LOCAL_C_INCLUDES :=		\
@@ -21,10 +18,7 @@ include $(BUILD_STATIC_LIBRARY)
 include $(CLEAR_VARS)
 include $(LOCAL_PATH)/../common.mk
 
-common_flags := -Wno-error -fno-strict-aliasing
-common_flags += -Wno-error -Wno-strict-aliasing
-common_flags += -Wno-attributes
-
+common_flags += -Wno-error=strict-aliasing -fno-strict-aliasing
 
 LOCAL_SRC_FILES := $(FFFILES)
 LOCAL_C_INCLUDES :=		\

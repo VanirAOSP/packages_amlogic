@@ -1,11 +1,8 @@
-
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-common_flags := -Wno-error -fno-strict-aliasing
-common_flags += -Wno-error -Wno-strict-aliasing
-common_flags += -Wno-attributes
+common_flags += -Wno-error=strict-aliasing -fno-strict-aliasing
 
 ifneq ($(BOARD_VOUT_USES_FREESCALE),false)
 LOCAL_CFLAGS += -DENABLE_FREE_SCALE
@@ -44,10 +41,6 @@ include $(BUILD_STATIC_LIBRARY)
 
 include $(CLEAR_VARS)
 
-
-common_flags := -Wno-error -fno-strict-aliasing
-common_flags += -Wno-error -Wno-strict-aliasing
-common_flags += -Wno-attributes
 
 ifneq ($(BOARD_VOUT_USES_FREESCALE),false)
 LOCAL_CFLAGS += -DENABLE_FREE_SCALE

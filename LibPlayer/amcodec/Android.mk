@@ -1,9 +1,7 @@
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
-common_flags := -Wno-error -fno-strict-aliasing
-common_flags += -Wno-error -Wno-strict-aliasing
-common_flags += -Wno-attributes
+common_flags += -Wno-error=strict-aliasing -fno-strict-aliasing
 
 LOCAL_SRC_FILES := \
 	codec/codec_ctrl.c \
@@ -32,8 +30,6 @@ LOCAL_SRC_FILES := \
 	audio_ctl/audio_ctrl.c
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include $(LOCAL_PATH)/codec $(LOCAL_PATH)/audio_ctl $(LOCAL_PATH)/../amadec/include 
-
-
 
 LOCAL_STATIC_LIBRARIES := libamadec
 LOCAL_SHARED_LIBRARIES += libutils libmedia libz libbinder libdl libcutils libc 

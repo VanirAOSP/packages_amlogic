@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-common_flags += -Wno-attributes -fno-strict-aliasing 
+common_flags += -Wno-error=strict-aliasing -fno-strict-aliasing
 
 include $(CLEAR_VARS)
 LOCAL_MODULE    := libfaad
@@ -8,7 +8,7 @@ LOCAL_SRC_FILES := $(notdir $(wildcard $(LOCAL_PATH)/*.c))
 LOCAL_ARM_MODE := arm
 LOCAL_C_INCLUDES := $(LOCAL_PATH) \
 	  $(LOCAL_PATH)/codebook    
-LOCAL_CFLAGs += -Wno-attributes -fno-strict-aliasing
+LOCAL_CFLAGs += -Wno-error=strict-aliasing -fno-strict-aliasing
 
 include $(BUILD_STATIC_LIBRARY)
 
@@ -23,6 +23,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := $(LOCAL_PATH) \
 	 $(LOCAL_PATH)/codebook   
 LOCAL_PRELINK_MODULE := false 
-LOCAL_CFLAGs += -Wno-attributes -fno-strict-aliasing
+LOCAL_CFLAGs += -Wno-error=strict-aliasing -fno-strict-aliasing
 
 include $(BUILD_SHARED_LIBRARY)
