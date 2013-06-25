@@ -27,6 +27,7 @@ import android.graphics.Rect;
 import android.graphics.Paint.FontMetricsInt;
 import android.graphics.drawable.Drawable;
 import android.os.Vibrator;
+import android.os.SystemVibrator; 
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -383,7 +384,7 @@ public class SoftKeyboardView extends View {
             return;
         }
         if (mVibrator == null) {
-            mVibrator = new Vibrator();
+            mVibrator = new SystemVibrator();
         }
         mVibrator.vibrate(mVibratePattern, -1);
     }
