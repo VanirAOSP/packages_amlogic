@@ -149,8 +149,8 @@ public abstract class ZLAndroidActivity extends Activity {
 		}*/
 	      
 		//Set the current resolution
-		int screen_Width=getWindowManager().getDefaultDisplay().getRawWidth();
-        int screen_Height=getWindowManager().getDefaultDisplay().getRawHeight();
+		int screen_Width=getWindowManager().getDefaultDisplay().getWidth();
+        int screen_Height=getWindowManager().getDefaultDisplay().getHeight();
         Resolution.setResolution(screen_Width,screen_Height) ;
         Log.d(TAG, "WIDTH "+Resolution.getWidth()+", HEIGHT"+Resolution.getHeight());
         

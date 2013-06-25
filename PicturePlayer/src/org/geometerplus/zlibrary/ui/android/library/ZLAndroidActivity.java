@@ -131,9 +131,9 @@ public abstract class ZLAndroidActivity extends Activity {
 		super.onCreate(state);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		exit_flag = false;
-		int screen_Width = getWindowManager().getDefaultDisplay().getRawWidth();
+		int screen_Width = getWindowManager().getDefaultDisplay().getWidth();
 		int screen_Height = getWindowManager().getDefaultDisplay()
-				.getRawHeight();
+				.getHeight();
 		Resolution.setResolution(screen_Width, screen_Height);
 		if (true == DebugConfig.debug)
 			Log.d(TAG, "WIDTH " + Resolution.getWidth() + ", HEIGHT"
